@@ -4,6 +4,6 @@ This repository contains sample python app for testing canary deployment on Kube
 
 ## Setup Instructions
 
-* Build kafka mirrormaker docker image with **Dockerfile** and push to Private Image registry
+**Build app docker image** with **Dockerfile** and push to Private Image registry
 
         `docker build -t <IMAGE_NAME:TAG> .`
